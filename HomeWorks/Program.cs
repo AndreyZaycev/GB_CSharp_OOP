@@ -18,6 +18,7 @@ namespace HomeWorks
                 new Lesson3Task3()
             };
 
+            
             bool bExit = true;
             do
             {
