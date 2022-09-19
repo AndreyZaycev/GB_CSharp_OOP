@@ -47,8 +47,13 @@
     <Compile Include="BankAccount.cs" />
     <Compile Include="ILessons.cs" />
     <Compile Include="Lesson2Task.cs" />
+    <Compile Include="Lesson3Task1.cs" />
+    <Compile Include="Lesson3Task2.cs" />
+    <Compile Include="Lesson3Task3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseString.cs" />
+    <Compile Include="SelectEmail.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

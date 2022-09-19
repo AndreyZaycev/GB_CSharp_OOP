@@ -106,5 +106,17 @@ namespace HomeWorks
             Console.WriteLine("---------------------------");
         }
 
+        //перевести деньги с одного счета на другой (для урока № 3, дз № 1)
+        public bool Transfer(BankAccount bankAccount, decimal sum)
+        {
+            bool bResult = false;
+            if (bankAccount.Take(sum))
+            {
+                Put(sum);
+                bResult = true;
+            }
+            return bResult;
+        }
+
     }
 }
