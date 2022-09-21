@@ -15,9 +15,12 @@ namespace HomeWorks
                 new Lesson2Task(),
                 new Lesson3Task1(),
                 new Lesson3Task2(),
-                new Lesson3Task3()
+                new Lesson3Task3(),
+                new Lesson4Task1(),
+                new Lesson4Task2()
             };
 
+            
             bool bExit = true;
             do
             {
