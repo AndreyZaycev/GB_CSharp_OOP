@@ -10,6 +10,10 @@ namespace HomeWorks
     {
         static void Main(string[] args)
         {
+            double x = 11.3;
+            double z = x % 1.5;
+            Console.WriteLine(z);
+
             List<ILessons> tasks = new List<ILessons>()
             {
                 new Lesson2Task(),
@@ -17,7 +21,10 @@ namespace HomeWorks
                 new Lesson3Task2(),
                 new Lesson3Task3(),
                 new Lesson4Task1(),
-                new Lesson4Task2()
+                new Lesson4Task2(),
+                new Lesson5Task1(),
+                new Lesson5Task2()
+                
             };
 
             
