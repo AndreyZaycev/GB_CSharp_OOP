@@ -10,10 +10,6 @@ namespace HomeWorks
     {
         static void Main(string[] args)
         {
-            double x = 11.3;
-            double z = x % 1.5;
-            Console.WriteLine(z);
-
             List<ILessons> tasks = new List<ILessons>()
             {
                 new Lesson2Task(),
