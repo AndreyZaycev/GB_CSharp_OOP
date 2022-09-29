@@ -13,17 +13,12 @@ namespace HomeWorks
             List<ILessons> tasks = new List<ILessons>()
             {
                 new Lesson2Task(),
-                new Lesson3Task1(),
-                new Lesson3Task2(),
-                new Lesson3Task3(),
-                new Lesson4Task1(),
-                new Lesson4Task2(),
-                new Lesson5Task1(),
-                new Lesson5Task2()
+                new Lesson3Task1(), new Lesson3Task2(), new Lesson3Task3(),
+                new Lesson4Task1(), new Lesson4Task2(),
+                new Lesson5Task1(), new Lesson5Task2(),
+                new Lesson6Task1(), new Lesson6Task2()
                 
             };
-
-            
 
             bool bExit = true;
             do
