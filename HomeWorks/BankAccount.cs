@@ -118,5 +118,24 @@ namespace HomeWorks
             return bResult;
         }
 
+        //урок № 6, домашнее задание № 1
+
+        //перегрузка == и !=
+        public static bool operator ==(BankAccount account1, BankAccount account2) { return account1.Equals(account2); }
+        public static bool operator !=(BankAccount account1, BankAccount account2) { return !(account1 == account2); }
+
+        //перегрузка метода Equals()
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType()) return false;
+            BankAccount temp = (BankAccount)obj;
+            return temp.Count == Count && temp.Balance == Balance && temp.TypeAccount == TypeAccount;
+        }
+
+        //перегрузка метода GetHashCode()
+        public override int GetHashCode() { return Count.GetHashCode() + Balance.GetHashCode() + TypeAccount.GetHashCode(); }
+
+        //перегрузка ToString()
+        public override string ToString() { return $"Банковский счет № {Count}; Баланс: {Balance} рублей; Тип счета: {TypeAccount}"; }
     }
 }
