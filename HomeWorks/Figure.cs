@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWorks
 {
-    //перечисление: тип банковского счета
+    //перечисление: цвет фигуры
     public enum ColorFigure
     {
         красный,
